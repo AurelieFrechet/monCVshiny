@@ -1,0 +1,80 @@
+.highchart {
+    width : 100% !important;
+    height : 100% !important;
+    }
+    .content-wrapper, .right-side {
+      background-color: #5f1854;
+    }
+    
+    .nav-tabs-custom .nav-tabs{
+     background-color: #1abb9c; 
+    }
+    
+    .nav-tabs-custom > .nav-tabs> li > a {
+      color : #f7f7f7;
+    }
+    
+    .nav-tabs-custom > .nav-tabs > li[class=active] {
+      border-top-color:  #1abb9c;
+      background-color: #f7f7f7;
+    }
+    
+    .nav-tabs-custom > .nav-tabs > li[class=active] > a {
+
+      color : #1abb9c;
+    }
+        
+    
+    .box {
+      border-top-color: #1abb9c;
+    }
+
+    .box-header {
+      background-color: #1abb9c;
+      color : #f7f7f7;
+    }
+
+    a:link {
+      color: #8b104e;
+    }
+    .pull-right {
+      color: #8b104e;
+    }
+    
+    /* visited link */
+    a:visited {
+    color: #8b104e;
+    }
+    
+    /* mouse over link */
+    a:hover {
+    color: #5f1854;
+    }
+    
+    /* selected link */
+    a:active {
+    color: #5f1854;
+    }
+
+    .profile-user-img{
+      border-color :#1abb9c;
+    }
+    
+    
+    .label-success{
+      background-color: #1abb9c !important;
+    }
+    .label-warning{
+      background-color: #8b104e !important;
+    }
+    .label-danger{
+      background-color: #5f1854 !important;
+    }
+    
+    .bg-marroon {
+    background-color: #8b104e !important;
+}
+
+.timeline > .time-label > span{
+  color : #f7f7f7;
+}

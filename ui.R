@@ -39,7 +39,9 @@ dashboardPage(
             boxProfileItem(title = "Mail",
                            description = "aurelie.frechet@gmail.com"),
             boxProfileItem(title = "Github",
-                           description = "https://github.com/AurelieFrechet")
+                           description = 
+                             HTML("<a class =\"pull-right\" href=\"https://github.com/AurelieFrechet\">https://github.com/AurelieFrechet</a>")
+                             )
             
           )
         )
@@ -144,35 +146,40 @@ dashboardPage(
             productList(
               productListItem(
                 src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweIdLqMROA1376btx1QkgWj3KpMC7OIW6jqTxu9_D5GpIF93ykQ",
-                productTitle = "World Happiness",
+                productTitle = 
+                  HTML("<a  href=\"https://github.com/AurelieFrechet/world_happiness\">World Happiness</a>"),
                 productPrice = "en cours",
                 priceColor = "warning",
                 "https://github.com/AurelieFrechet/world_happiness"
               ),
               productListItem(
                 src = "https://le-datascientist.fr/wp-content/uploads/2019/03/cropped-rstudio.png",
-                productTitle = "Accidents circulation",
+                productTitle = 
+                HTML("<a  href=\"https://github.com/AurelieFrechet/accidents_circulation\">Accidents circulation</a>"),
                 productPrice = "en cours",
                 priceColor = "warning",
                 "https://github.com/AurelieFrechet/accidents_circulation"
               ),
               productListItem(
                 src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweIdLqMROA1376btx1QkgWj3KpMC7OIW6jqTxu9_D5GpIF93ykQ",
-                productTitle = "JO2024",
+                productTitle = 
+                HTML("<a  href=\"https://aureliefrechet.shinyapps.io/jo2024\">JO2024</a>"),
                 productPrice = "terminé",
                 priceColor = "success",
                 "https://aureliefrechet.shinyapps.io/jo2024/"
               ),
               productListItem(
                 src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweIdLqMROA1376btx1QkgWj3KpMC7OIW6jqTxu9_D5GpIF93ykQ",
-                productTitle = "Herbier Fractales",
+                productTitle = 
+                HTML("<a  href=\"https://github.com/AurelieFrechet/herbier_fractales\">Herbier Fractales</a>"),
                 productPrice = "en cours",
                 priceColor = "warning",
                 "https://github.com/AurelieFrechet/herbier_fractales"
               ),
               productListItem(
                 src = "https://le-datascientist.fr/wp-content/uploads/2019/03/cropped-rstudio.png",
-                productTitle = "Accès financier aux soins",
+                productTitle = 
+                HTML("<a  href=\"https://github.com/AurelieFrechet/acces_financier_soins\">Accès financier aux soins</a>"),
                 productPrice = "en cours",
                 priceColor = "warning",
                 "https://github.com/AurelieFrechet/acces_financier_soins"

@@ -19,7 +19,7 @@ competences_char <- c("R",
                       "Tableau",
                       "SQL")
 
-competences_notes <- c(9.5, 8.5, 4, 3, 5, 7, 6.5, 8)
+competences_notes <- c(9.5, 8.5, 5, 4, 5, 7, 6.5, 8)
 interets_notes    <- c(10, 10, 9, 10, 8, 3, 5, 6)
 
 
